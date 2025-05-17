@@ -1,8 +1,8 @@
 #include <iostream>
-
-
-#include <iostream>
+#include "imgui.h"
 
 int main(char** args) {
-	return 0;
+	
+
+	std::cout << "Hello world\n";
 }
