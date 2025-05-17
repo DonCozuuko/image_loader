@@ -23,4 +23,8 @@ set(IMGUI_SRC
 add_executable(image_loader ${SRC_FILES} ${IMGUI_SRC})
 
 # Add the ImGui include directory
-target_include_directories(image_loader PRIVATE ${IMGUI_DIR})
+target_include_directories(image_loader PRIVATE ${IMGUI_DIR} $(GLFW_INCLUDE_DIR))
+
+target_link_directories(image_loader PRIVATE $(GLFW_LIB_DIR))
+
+target_link_libraries(image_loader PRIVATE glfw3)

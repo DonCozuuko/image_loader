@@ -32,7 +32,7 @@
 // The header below *must* be included **after** the macro above so it generates the function pointer table
 #include <imgui_impl_opengl3_loader.h>
 
-#include <glfw/include/GLFW/glfw3.h>
+#include <GLFW/glfw3.h>
 
 // -------------------------------------------------------------------------------------------------
 // Minimal loader that redirects to glfwGetProcAddress. ImGui will use this to resolve core/ARB funcs.

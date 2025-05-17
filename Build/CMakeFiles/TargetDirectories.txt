@@ -1,0 +1,3 @@
+C:/Development/Projects/C_Projects/image-loader/image_loader/Build/CMakeFiles/image_loader.dir
+C:/Development/Projects/C_Projects/image-loader/image_loader/Build/CMakeFiles/edit_cache.dir
+C:/Development/Projects/C_Projects/image-loader/image_loader/Build/CMakeFiles/rebuild_cache.dir
